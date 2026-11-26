@@ -3,18 +3,18 @@
 <head>
     <script>
         // 전역 변수 선언
-        const TEAM_LEADER_NAME = "장영희";
-        const TEAM_LEADER_PHONE = "01033230322";
+        const TEAM_LEADER_NAME = "양나경";
+        const TEAM_LEADER_PHONE = "01085572877";
     </script>
     
     <meta property="og:type" content="website">
-    <meta property="og:title" content="오산헤리티지자이 - 장영희 팀장">
-    <meta property="og:description" content="GTX-C 연장 & 동탄 트램 더블 교통 비전! 병점역 新주거타운의 중심!">
+    <meta property="og:title" content="화성 향남 롯데캐슬 시그니처 - 양나경 팀장">
+    <meta property="og:description" content="향남의 가치를 넘어, 새로운 기준을 세우다!">
     <meta property="og:image" content="https://star13535.github.io/OsanHeritageXI/img/JYH.JPG">    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     
-    <title>오산헤리티지자이 - 장영희 팀장</title>
+    <title>화성 향남 롯데캐슬 시그니처 - 양나경 팀장</title>
     
     <link rel="icon" href="img/logo.png" type="image/jpg">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&family=Outfit:wght@700;800&display=swap" rel="stylesheet">
@@ -586,8 +586,8 @@
     <div class="main-title">
         <div class="inner-logo"><img src="img/logo.png" alt="자이 로고"></div>
         <div class="title-text">
-            <h2>오산 헤리티지 자이</h2>
-            <p>GTX-C 연장 & 동탄 트램 더블 교통 비전! 병점역 新주거타운의 중심!</p>
+            <h2>화성 향남 롯데캐슬 시그니처</h2>
+            <p>향남의 가치를 넘어, 새로운 기준을 세우다!</p>
         </div>
     </div>
     
@@ -599,9 +599,9 @@
     </div>
 
     <div class="tab-menu">
-        <button class="tab-btn active" onclick="openTab(event, 'tab1')">사업개요</button>
+        <button class="tab-btn active" onclick="openTab(event, 'tab1')">입지환경</button>
         <button class="tab-btn" onclick="openTab(event, 'tab2')">단지&세대안내</button>
-        <button class="tab-btn" onclick="openTab(event, 'tab3')">시장환경</button>
+        <button class="tab-btn" onclick="openTab(event, 'tab3')">커뮤니티</button>
         <button class="tab-btn" onclick="openTab(event, 'tab4')">프리미엄</button>
     </div>
 
@@ -617,7 +617,7 @@
                             <span class="ocs-badge">공식 분양관</span>
                             <span class="ocs-sub">방문예약 전용</span>
                         </div>
-                        <img src="img/JYH.JPG" alt="장영희 팀장" class="ocs-card-img">
+                        <img src="img/JYH.JPG" alt="양나경 팀장" class="ocs-card-img">
                         <p class="ocs-caution-txt">
                             <strong>※ 원활한 관람을 위해</strong><br>
                             방문 전 일시를 예약해주시면 대기 없이 우선 상담이 가능합니다.
@@ -665,106 +665,42 @@
     <!-- 탭 2 -->
     <div id="tab2" class="tab-content">
         <div class="view-mode-selector">
-            <button class="mode-btn active" onclick="changeViewMode(event, 'num-view')">동호수표</button>
-            <button class="mode-btn" onclick="changeViewMode(event, '1BL-view')">🏠 1BL</button>
-            <button class="mode-btn" onclick="changeViewMode(event, '2BL-view')">🏠 2BL</button>
+            <button class="mode-btn active" onclick="changeViewMode(event, 'num-view')">단지안내</button>
+            <button class="mode-btn" onclick="changeViewMode(event, '1BL-view')">세대안내</button>
         </div>
         
         <div id="num-view" class="mode-content active">
-            <div class="type-group active">
-                <div class="sub-tab-menu">
-                    <button class="sub-tab-btn active" onclick="openSubTab(event, 'num1', 'num-view')">1BL</button>
-                    <button class="sub-tab-btn" onclick="openSubTab(event, 'num2', 'num-view')">2BL</button>
-                </div>
-            </div>
-            <div id="num1" class="sub-tab-content active"><img src="img/6.jpg"></div>
-            <div id="num2" class="sub-tab-content"><img src="img/7.jpg"></div>
+            <img src="img/6.jpg">
         </div>
         
         <div id="1BL-view" class="mode-content">
             <div class="swipe-hint-text">↔ 좌우로 밀어서 모든 타입을 확인해보세요</div>
             <div class="size-filter">
-                <button class="filter-btn active" onclick="filterSize(event, 'size75')">75</button>
-                <button class="filter-btn" onclick="filterSize(event, 'size84ABCD')">84A~D</button>
+                <button class="filter-btn active" onclick="filterSize(event, 'size84')">84</button>
                 <button class="filter-btn" onclick="filterSize(event, 'size102')">102</button>
-                <button class="filter-btn" onclick="filterSize(event, 'size104')">104</button>
-                <button class="filter-btn" onclick="filterSize(event, 'size166')">166PH</button>
-                <button class="filter-btn" onclick="filterSize(event, 'clubxian')">CLUB XIAN</button>
-                <button class="filter-btn" onclick="filterSize(event, 'clubcloud')">CLUB CLOUD</button>
+                <button class="filter-btn" onclick="filterSize(event, 'size112')">112</button>
+                <button class="filter-btn" onclick="filterSize(event, 'size120')">120</button>
+                
             </div>
 
-            <div id="size75" class="type-group active">
-                <div class="sub-tab-menu"><button class="sub-tab-btn active" onclick="openSubTab(event, 'type75', '1BL-view')">75㎡ 보기</button></div>
-            </div>
-            <div id="size84ABCD" class="type-group">
-                <div class="sub-tab-menu"><button class="sub-tab-btn" onclick="openSubTab(event, 'type84ABCD', '1BL-view')">84㎡A~D 보기</button></div>
+            <div id="size84" class="type-group active">
+                <div class="sub-tab-menu"><button class="sub-tab-btn active" onclick="openSubTab(event, 'type84', '1BL-view')">84㎡ 보기</button></div>
             </div>
             <div id="size102" class="type-group">
                 <div class="sub-tab-menu"><button class="sub-tab-btn" onclick="openSubTab(event, 'type102', '1BL-view')">102㎡ 보기</button></div>
             </div>
-            <div id="size104" class="type-group">
-                <div class="sub-tab-menu"><button class="sub-tab-btn" onclick="openSubTab(event, 'type104', '1BL-view')">104㎡ 보기</button></div>
+            <div id="size112" class="type-group">
+                <div class="sub-tab-menu"><button class="sub-tab-btn" onclick="openSubTab(event, 'type112', '1BL-view')">112㎡ 보기</button></div>
             </div>
-            <div id="size166" class="type-group">
-                <div class="sub-tab-menu"><button class="sub-tab-btn" onclick="openSubTab(event, 'type166', '1BL-view')">166㎡ PH 보기</button></div>
-            </div>
-            <div id="clubxian" class="type-group">
-                <div class="sub-tab-menu"><button class="sub-tab-btn" onclick="openSubTab(event, 'typeclub', '1BL-view')">CLUB XIAN 보기</button></div>
-            </div>
-            <div id="clubcloud" class="type-group">
-                <div class="sub-tab-menu"><button class="sub-tab-btn" onclick="openSubTab(event, 'typecloud', '1BL-view')">CLUB CLOUD 보기</button></div>
-            </div>
-
-            <div id="type75" class="sub-tab-content active"><img src="img/22.jpg"></div>
-            <div id="type84ABCD" class="sub-tab-content"><img src="img/23.jpg"><img src="img/24.jpg"><img src="img/25.jpg"><img src="img/26.jpg"></div>
-            <div id="type102" class="sub-tab-content"><img src="img/27.jpg"></div>
-            <div id="type104" class="sub-tab-content"><img src="img/28.jpg"></div>
-            <div id="type166" class="sub-tab-content"><img src="img/29.jpg"></div>
-            <div id="typeclub" class="sub-tab-content"><img src="img/37.jpg"></div>
-            <div id="typecloud" class="sub-tab-content"><img src="img/39.jpg"></div>
-        </div>
-        
-        <div id="2BL-view" class="mode-content">
-            <div class="swipe-hint-text">↔ 좌우로 밀어서 모든 타입을 확인해보세요</div>
-            <div class="size-filter">
-                <button class="filter-btn active" onclick="filterSize(event, '2size75')">75</button>
-                <button class="filter-btn" onclick="filterSize(event, '2size84ABCD')">84A~C</button>
-                <button class="filter-btn" onclick="filterSize(event, '2size102')">102</button>
-                <button class="filter-btn" onclick="filterSize(event, '2size104')">104</button>
-                <button class="filter-btn" onclick="filterSize(event, '2size166')">166PH</button>
-                <button class="filter-btn" onclick="filterSize(event, '2clubxian')">CLUB XIAN</button>
-                <button class="filter-btn" onclick="filterSize(event, '2clubcloud')">CLUB CLOUD</button>
-            </div>
-
-            <div id="2size75" class="type-group active">
-                <div class="sub-tab-menu"><button class="sub-tab-btn active" onclick="openSubTab(event, '2type75', '2BL-view')">75㎡ 보기</button></div>
-            </div>
-            <div id="2size84ABCD" class="type-group">
-                <div class="sub-tab-menu"><button class="sub-tab-btn" onclick="openSubTab(event, '2type84ABCD', '2BL-view')">84㎡A~C 보기</button></div>
-            </div>
-            <div id="2size102" class="type-group">
-                <div class="sub-tab-menu"><button class="sub-tab-btn" onclick="openSubTab(event, '2type102', '2BL-view')">102㎡ 보기</button></div>
-            </div>
-            <div id="2size104" class="type-group">
-                <div class="sub-tab-menu"><button class="sub-tab-btn" onclick="openSubTab(event, '2type104', '2BL-view')">104㎡ 보기</button></div>
-            </div>
-            <div id="2size166" class="type-group">
-                <div class="sub-tab-menu"><button class="sub-tab-btn" onclick="openSubTab(event, '2type166', '2BL-view')">166㎡ PH 보기</button></div>
-            </div>
-            <div id="2clubxian" class="type-group">
-                <div class="sub-tab-menu"><button class="sub-tab-btn" onclick="openSubTab(event, '2typeclub', '2BL-view')">CLUB XIAN 보기</button></div>
-            </div>
-            <div id="2clubcloud" class="type-group">
-                <div class="sub-tab-menu"><button class="sub-tab-btn" onclick="openSubTab(event, '2typeclubcloud', '2BL-view')">CLUB CLOUD 보기</button></div>
+            <div id="size120" class="type-group">
+                <div class="sub-tab-menu"><button class="sub-tab-btn" onclick="openSubTab(event, 'type120', '1BL-view')">120㎡ PH 보기</button></div>
             </div>
             
-            <div id="2type75" class="sub-tab-content active"><img src="img/30.jpg"></div>
-            <div id="2type84ABCD" class="sub-tab-content"><img src="img/31.jpg"><img src="img/32.jpg"><img src="img/33.jpg"></div>
-            <div id="2type102" class="sub-tab-content"><img src="img/34.jpg"></div>
-            <div id="2type104" class="sub-tab-content"><img src="img/35.jpg"></div>
-            <div id="2type166" class="sub-tab-content"><img src="img/36.jpg"></div>
-            <div id="2typeclub" class="sub-tab-content"><img src="img/38.jpg"></div>
-            <div id="2typeclubcloud" class="sub-tab-content"><img src="img/39.jpg"></div>
+
+            <div id="type84" class="sub-tab-content"><img src="img/23.jpg"><img src="img/24.jpg"><img src="img/25.jpg"><img src="img/26.jpg"></div>
+            <div id="type102" class="sub-tab-content"><img src="img/27.jpg"></div>
+            <div id="type112" class="sub-tab-content"><img src="img/28.jpg"></div>
+            <div id="type120" class="sub-tab-content"><img src="img/29.jpg"></div>
         </div>
     </div>
 
@@ -784,7 +720,7 @@
                             <span class="ocs-badge">공식 분양관</span>
                             <span class="ocs-sub">방문예약 전용</span>
                         </div>
-                        <img src="img/JYH.JPG" alt="장영희 팀장" class="ocs-card-img">
+                        <img src="img/JYH.JPG" alt="양나경 팀장" class="ocs-card-img">
                         <p class="ocs-caution-txt">
                             <strong>※ 원활한 관람을 위해</strong><br>
                             방문 전 일시를 예약해주시면 대기 없이 우선 상담이 가능합니다.
@@ -917,7 +853,7 @@
             // if (typeVal) extraText += `\n- 관심 평형: ${typeVal}`;
             // if (memoVal) extraText += `\n- 요청사항: ${memoVal}`;
 
-            const message = `<오산 헤리티지 자이 방문/상담 신청>\n${name}\n${formattedPhone}${extraText}`;
+            const message = `<화성 향남 롯데캐슬 시그니처 방문/상담 신청>\n${name}\n${formattedPhone}${extraText}`;
             
             const isIOS = /iPhone|iPad|iPod/i.test(navigator.userAgent);
             const isAndroid = /Android/i.test(navigator.userAgent);
